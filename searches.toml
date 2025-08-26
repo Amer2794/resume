@@ -1,0 +1,35 @@
+# `dr=2` means updated in the last week
+search_engine = "https://kagi.com/search?dr=2&q="
+
+search_domains = [
+  "applytojob.com/apply/",
+  "icims.com",
+  "inflightcloud.com",
+  "job-boards.greenhouse.io",
+  "jobs.ashbyhq.com",
+  "jobs.jobvite.com",
+  "jobs.lever.co",
+  "jobs.smartrecruiters.com",
+  "myworkdayjobs.com",
+  "remote.co",
+  "remote.com",
+  "remote.io",
+  "remotejobs.com/job/",
+  "weworkremotely.com/remote-jobs/",
+  "ziprecruiter.com/c/",
+]
+
+job_roles = [
+  "cloud engineer",
+  "cybersecurity",
+  "devops",
+  "devsecops",
+  "observability",
+  "project manager",
+  "site reliability engineer",
+  "software engineer",
+  "product manager",
+  "technical program manager",
+]
+
+excluded_keywords = ["clearance", "dod", "expired", "intern", "sales"]

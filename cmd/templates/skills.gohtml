@@ -1,0 +1,138 @@
+{{ define "skills" -}}
+{{- $languages := list
+    "[Bash]"
+    "[Go]"
+    "[JavaScript]"
+    "[PHP]"
+    "[Python]"
+}}
+{{- $cloudSkills := list
+    "[Amazon Web Services][AWS]"
+    "[Ansible]"
+    "[ARM64]"
+    "[Artifactory]"
+    "[AWS Well-Architected]"
+    "[Bash]"
+    "[CentOS]"
+    "[CIS]"
+    "[CloudFormation][AWS CloudFormation]"
+    "[CloudWatch][Amazon CloudWatch]"
+    "[Control Tower][AWS Control Tower]"
+    "[Docker]"
+    "[ECS][Amazon ECS]"
+    "[Git]"
+    "[GitHub Actions]"
+    "[GitHub Enterprise]"
+    "[Lambda][AWS Lambda]"
+    "[Nginx]"
+    "[OpenTelemetry]"
+    "[OpenTofu]"
+    "[Packer]"
+    "[Redis]"
+    "[SDKs][AWS SDKs]"
+    "[Terraform]"
+    "[Traefik]"
+    "architecture"
+    "automation"
+    "DevOps"
+    "DevSecOps"
+    "disaster recovery"
+    "error budget"
+    "multi-platform"
+    "performance"
+    "reliability"
+    "scalability"
+    "scripting"
+    "security"
+    "troubleshooting"
+    "uptime"
+}}
+{{- $sdeSkills := list
+    "[AWS]"
+    "[CircleCI]"
+    "[Docker]"
+    "[Git]"
+    "[GitHub Actions]"
+    "[GraphQL]"
+    "[JWT]"
+    "[Redis]"
+    "[twelve-factor applications]"
+    "[Vagrant]"
+    "automation"
+    "CI/CD"
+    "code generation"
+    "containerization"
+    "debugging"
+    "distributed"
+    "documentation"
+    "microservices"
+    "multi-platform"
+    "optimization"
+    "performance"
+    "platforms"
+    "refactoring"
+    "scalability"
+    "security"
+    "test-driven development"
+    "testing"
+}}
+{{- $tpmSkills := list
+    "[Confluence]"
+    "[Jira]"
+    "agile"
+    "coordination"
+    "documentation"
+    "kanban"
+    "organization"
+    "platforms"
+    "project management"
+    "risk mitigation"
+    "roadmap management"
+    "scrum"
+    "stakeholder management"
+    "vendor management"
+}}
+
+{{ if not .IsGoPDF -}}
+## Skills
+
+{{ if or .IsAll .IsEM -}}
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
+
+{{ (concat $languages $cloudSkills $sdeSkills $tpmSkills) | sortAlpha | uniq | join ", " }}.
+
+{{ end -}}
+
+{{ if .IsCloud -}}
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
+
+{{ (concat $languages $cloudSkills) | sortAlpha | uniq | join ", " }}.
+
+{{ end -}}
+
+{{ if .IsSDE -}}
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
+
+{{ (concat $languages $sdeSkills) | sortAlpha | uniq | join ", " }}.
+
+{{ end -}}
+
+{{ if .IsTPM -}}
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
+
+{{ (concat $tpmSkills) | sortAlpha | uniq | join ", " }}.
+
+{{ end -}}
+
+{{- else -}} {{/* Generate when we're just trying to get keywords */}}
+{{ if .IsAll -}}
+    {{- (concat $languages $cloudSkills $sdeSkills $tpmSkills) | sortAlpha | uniq | join ", " -}}
+{{ else if .IsCloud -}}
+    {{- (concat $languages $cloudSkills) | sortAlpha | uniq | join ", " -}}
+{{ else if .IsSDE -}}
+    {{- (concat $languages $sdeSkills) | sortAlpha | uniq | join ", " -}}
+{{ else if .IsTPM -}}
+    {{- (concat $tpmSkills) | sortAlpha | uniq | join ", " -}}
+{{ end -}}
+{{- end -}}
+{{ end -}}

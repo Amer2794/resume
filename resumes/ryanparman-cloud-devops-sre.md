@@ -3,7 +3,7 @@
 **Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership and engineering management.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.odt)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.odt)
 
 ## Summary
 
@@ -53,7 +53,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
 * Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
-* Authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
 * Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over security guardrails.
 * Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
 * Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
@@ -69,8 +68,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Site Reliability Engineering Manager (October 2018—June 2020)
 
-* Managed a team of four, while working to mentor and level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
-* Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
 * Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
 * Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
@@ -112,8 +109,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Initiated the creation of [AWS SDK for PHP] v2 to address changes in the PHP language and growth of AWS services.
 * Led one of the first teams to provide reusable UI building blocks for the [AWS Management Console], by collaborating directly with the AWS Design team.
 * Invested in increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
-
-<div class="page-break"></div>
 
 ### Older roles, side projects
 
@@ -164,9 +159,9 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 ## Skills
 
-This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
 
-CI/CD, DevOps, DevSecOps, [ARM64], [AWS Well-Architected], [AWS], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Confluence], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [GraphQL], [JWT], [JavaScript], [Jira], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Vagrant], [twelve-factor applications], agile, architecture, automation, code generation, containerization, coordination, debugging, disaster recovery, distributed, documentation, error budget, kanban, microservices, multi-platform, optimization, organization, performance, platforms, project management, refactoring, reliability, risk mitigation, roadmap management, scalability, scripting, scrum, security, stakeholder management, test-driven development, testing, troubleshooting, uptime, vendor management.
+DevOps, DevSecOps, [ARM64], [AWS Well-Architected], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [JavaScript], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], architecture, automation, disaster recovery, error budget, multi-platform, performance, reliability, scalability, scripting, security, troubleshooting, uptime.
 
 ## Education
 

@@ -1,9 +1,9 @@
 # Ryan Parman • [jobs@ryanparman.com](mailto:jobs@ryanparman.com)
 
-**Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership and engineering management.**
+**Cloud Engineering Leader • Innovator • Problem Solver; looking to pivot into project, product, and program management roles.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.odt)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-tpm.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-tpm.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-tpm.odt)
 
 ## Summary
 
@@ -56,16 +56,9 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
 * Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over security guardrails.
 * Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
-* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
-* Grew and ran a project which evaluated AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
-* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners.
 * Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
-* Enabled continuous token and password rotation for engineering teams by designing and deploying a _Token Vending Machine_, improving security.
-* Adapted the _Monitoring-as-Code_ tooling/methodology to abstract-away the underlying vendor, streamlining a vendor migration ([New Relic], [Datadog]) (1 → 10).
 * Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
 * Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
-
-<div class="page-break"></div>
 
 #### Site Reliability Engineering Manager (October 2018—June 2020)
 
@@ -73,9 +66,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
 * Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
 * Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
-* Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
-* Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).
-* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]) (0 → 1).
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -83,7 +73,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg].
 * Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
-* Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
 
 ### [WePay] — Redwood City, CA
 
@@ -94,7 +83,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results.
 * Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster.
 * Invested in monitoring and alerting systems to prevent customer-facing issues ([New Relic], [Grafana]).
-* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud Platform][GCP] to improve reliability and efficiency.
 
 #### Senior API Engineer (April 2014—April 2015)
 
@@ -113,8 +101,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Led one of the first teams to provide reusable UI building blocks for the [AWS Management Console], by collaborating directly with the AWS Design team.
 * Invested in increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
 
-<div class="page-break"></div>
-
 ### Older roles, side projects
 
 See “[Previous experience, side projects](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md)” for additional details.
@@ -128,18 +114,6 @@ See “[Previous experience, side projects](https://github.com/skyzyx/resume/blo
 * [Stryker](https://www.crunchbase.com/organization/stryker) — User Interface Developer (Contract) (May 2005—September 2006)
 * [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) (now part of [Axciom](https://www.crunchbase.com/organization/acxiom-digital-inc)) — Production Specialist (March 2004—April 2005)
 
-## Projects
-
-Proof that I can code, call APIs, interact with SDKs, and build user-facing software. I have live-coding anxiety, so live-coding interviews will always present me at my worst, not my best.
-
-* **DevSec Tools:** Building a [website](https://github.com/northwood-labs/devsec-ui), [CLI tool, and Go library](https://github.com/northwood-labs/devsec-tools) for identifying potential security configuration issues (in-progress).
-* **Custom Linux Packages:** Building a [repository of custom Linux packages](https://github.com/northwood-labs/package-building/wiki) (in-progress).
-* **CSP Evaluator:** Building a [parser and evaluator for Content Security Policy (CSP) directives](https://github.com/northwood-labs/csp-parser) in Go (in-progress).
-* **Terraform Provider:** Built a [custom provider](https://github.com/northwood-labs/terraform-provider-corefunc) which provides a set of utility functions for use in Terraform/OpenTofu.
-* **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which simplifies building multi-platform images.
-* **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the hub-and-spoke pattern for multi-account orgs.
-* **AWS Session Manager:** Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying connections to SSM-enabled EC2 instances](https://github.com/northwood-labs/ssm-shell) using your Terminal.
-
 ## Examples of Technical Documentation
 
 Here are examples of my public-facing documentation:
@@ -150,6 +124,8 @@ Here are examples of my public-facing documentation:
 * [Configuring DataGrip for Valkey (devsec-tools)](https://github.com/northwood-labs/devsec-tools/blob/main/docs/configuring-datagrip-for-valkey.md)
 * Diagrams of Artifactory [infrastructure](https://whimsical.com/artifactory-infrastructure-diagram-5MbWJd8BJfMbRWhfZwtHhQ) and [software](https://whimsical.com/artifactory-software-configuration-and-data-flow-QWZnvbv4SXTX2qkmKGZAqp) configuration.
 * Diagram of a [secrets-rotation system](https://whimsical.com/tokengen-infrastructure-diagram-and-data-flow-5ZphqPDP826AaPZHKxCKSr).
+
+<div class="page-break"></div>
 
 ## Recommendations
 
@@ -164,9 +140,9 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 ## Skills
 
-This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
 
-CI/CD, DevOps, DevSecOps, [ARM64], [AWS Well-Architected], [AWS], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Confluence], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [GraphQL], [JWT], [JavaScript], [Jira], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Vagrant], [twelve-factor applications], agile, architecture, automation, code generation, containerization, coordination, debugging, disaster recovery, distributed, documentation, error budget, kanban, microservices, multi-platform, optimization, organization, performance, platforms, project management, refactoring, reliability, risk mitigation, roadmap management, scalability, scripting, scrum, security, stakeholder management, test-driven development, testing, troubleshooting, uptime, vendor management.
+[Confluence], [Jira], agile, coordination, documentation, kanban, organization, platforms, project management, risk mitigation, roadmap management, scrum, stakeholder management, vendor management.
 
 ## Education
 

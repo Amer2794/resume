@@ -1,0 +1,158 @@
+@media print{
+  @page {
+    margin: 2%;
+    size: letter;
+  }
+
+  body {
+    margin: auto 1.1cm;
+    zoom: .8;
+  }
+}
+
+html {
+  font-size:100%;
+  text-size-adjust:100%;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #000;
+}
+
+a, a:hover, a:link, a:visited {
+  color: #357edd;
+  text-decoration: underline;
+}
+
+p {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.4rem 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 2em;
+  unicode-bidi: isolate;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+h1, h2, h3, h4 {
+  padding: .5em 0 .2em;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+h3 {
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+h3 + h4 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+blockquote {
+  padding: 0.1rem 0.75rem;
+  margin: 0.2rem 0;
+  font-size: 14px;
+
+  border-left: 3px solid #ddd;
+  font-style: italic;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+.page-break {
+  display: block;
+  break-before: always;
+  page-break-before: always;
+}
+
+details[open] {
+  margin: 0;
+  padding: 0;
+}
+
+details[open] br {
+  display: none;
+}
+
+details[open] summary {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#truncated {
+  display: none;
+}
+
+div.tip {
+  background-color: rgb(255, 243, 205);
+  border: 1px solid rgb(255, 230, 156);
+  border-width: 1px 1px 1px 10px;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: rgb(102, 77, 3);
+}
+
+div.note {
+  background-color: rgb(207, 244, 252);
+  border: 1px solid rgb(158, 234, 249);
+  border-width: 1px 1px 1px 10px;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: rgb(5, 81, 96);
+}
+
+div.title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+div.tip div.title {
+  ::before {
+    content: "💡 ";
+  }
+}
+
+div.note div.title {
+  ::before {
+    content: "📓 ";
+  }
+}
